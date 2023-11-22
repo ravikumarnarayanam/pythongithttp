@@ -1,6 +1,31 @@
 import azure.functions as func
 import logging
-from typing import Dict, List
+import numpy as np
+import tiktoken
+import openai
+import requests
+import os
+import io
+import urllib3
+import fitz
+from io import BytesIO
+from docx import Document
+from pptx import Presentation
+import pandas as pd
+from striprtf.striprtf import rtf_to_text
+import re
+import nltk
+import ipaddress
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.corpus import wordnet
+import json
+from sklearn.feature_extraction.text import TfidfVectorizer
+import concurrent.futures
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from fuzzywuzzy import fuzz
+import json
+
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
