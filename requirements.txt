@@ -18,3 +18,7 @@ urllib3
 ipaddress
 python-Levenshtein
 futures
+<<<<<<< HEAD
+=======
+typing<=3.5.0
+>>>>>>> 337fe75cd3098d48c275ae3abffd3a4d46a8fcde
