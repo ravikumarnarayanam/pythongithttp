@@ -10,3 +10,12 @@ python-docx
 python-pptx
 pandas
 striprtf
+nltk
+fuzzywuzzy
+PyMuPDF
+scikit-learn
+urllib3
+ipaddress
+python-Levenshtein
+futures
+typing

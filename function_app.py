@@ -1,5 +1,6 @@
 import azure.functions as func
 import logging
+from typing import Dict, List
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
