@@ -19,7 +19,6 @@ import ipaddress
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet
-import json
 from sklearn.feature_extraction.text import TfidfVectorizer
 import concurrent.futures
 from concurrent.futures import ThreadPoolExecutor, as_completed
