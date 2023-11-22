@@ -18,4 +18,4 @@ urllib3
 ipaddress
 python-Levenshtein
 futures
-typing
+typing==3.5
